@@ -20,4 +20,8 @@
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BYT.Task3UnitTests\BYT.Task3UnitTests.csproj" />
+  </ItemGroup>
+
 </Project>
