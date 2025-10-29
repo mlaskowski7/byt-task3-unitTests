@@ -1,4 +1,4 @@
-using Tut2_s20123;
+using BYT.Task3UnitTests;
 
 // Create a Sphere with radius 5
 IShape sphere = new Sphere(5);
@@ -30,7 +30,7 @@ Console.WriteLine($"Volume: {cube.CalculateVolume():F3}");
 
 
 
-namespace Tut2_s20123
+namespace BYT.Task3UnitTests
 {
     public interface IShape
     {
@@ -42,7 +42,7 @@ namespace Tut2_s20123
 
 
 
-namespace Tut2_s20123
+namespace BYT.Task3UnitTests
 {
     public class Cube(double side) : IShape
     {
@@ -63,7 +63,7 @@ namespace Tut2_s20123
 
 
 
-namespace Tut2_s20123
+namespace BYT.Task3UnitTests
 {
     public class Rectangle(double length, double width) : IShape
     {
@@ -86,7 +86,7 @@ namespace Tut2_s20123
 
 
 
-namespace Tut2_s20123
+namespace BYT.Task3UnitTests
 {
     public class Cylinder(double radius, double height) : IShape
     {
@@ -107,7 +107,7 @@ namespace Tut2_s20123
 }
 
 
-namespace Tut2_s20123
+namespace BYT.Task3UnitTests
 {
     public class Sphere(double radius) : IShape
     {
